@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/afterSaleApply/afterSaleApply",
+    "pages/myMeasure/myMeasure",
+    "pages/first/first",
+    "pages/contactUs/contactUs",
+    "pages/aboutUs/aboutUs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "算命",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,26 @@
+<view>
+  <view class='top'>
+    <view bindtap='goFirst'>
+      <image src='http://ffsm.smdqw.net/statics/ffsm/public/images/icon_home.png' class='top-icon'></image>
+    </view>
+    <view class='contact-us'>
+      联系我们
+    </view>
+    <view class='my-measure'>
+      我的测算
+    </view>
+  </view>
+  <view class='middle-content'>
+    <view>客服人员非测算师，对测算相关内容不予解答，敬请谅解。</view>
+    <button>付款后看不到测算结果请点击这里</button>
+  </view>
+  <view class='footer'>
+    <view>神算网</view>
+    <view>动力十足有限公司 地址：北京世贸天阶</view>
+    <view>客服7x24小时在线 & 联系QQ：52623867</view>
+    <view class='we'>
+      <view class='footer-about-us'>关于我们</view>
+      <view>联系我们</view>
+    </view>
+  </view>
+</view>

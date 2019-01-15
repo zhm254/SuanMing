@@ -1,0 +1,84 @@
+<view>
+  <view class='title'>
+    精准测算
+  </view>
+  <view>
+    <image src='http://ffsm.smdqw.net/statics/ffsm/index/1/images/topbanner.gif.jpeg' class='banner-img'></image>
+  </view>
+  <view>
+    <view class='subheading'>
+      ·狗年财运爱情运势·
+    </view>
+    <view class='type'>
+      <view class='type-left'>
+        <view>
+          <view>
+            <image src='http://ffsm.smdqw.net/statics/img/57de106713afa.png' class='type-img'></image>
+          </view>
+          <view class='type-percent'>98%</view>
+          <view class='type-evaluate'>好评</view>
+        </view>
+      </view>
+      <view>
+        <view class='type-title'>八字精批</view>
+        <view class='type-text'>八字算命是传统文化中最古老而又最准确的算命方法，通过将一个人的出生年月日时进行八字排盘变成由天干、地支所组成的八个字，再对这八个字的五行相生、十神关系等进行分析，测算出人一生的财运、婚姻、事业、健康等等。</view>
+      </view>
+    </view>
+    <button class='immediately-measure'>立即測算</button>
+  </view>
+  <view>
+    <view class='subheading'>
+      ·姓名三才五格配对·
+    </view>
+    <view class='type'>
+      <view class='type-left'>
+        <view>
+          <view>
+            <image src='http://ffsm.smdqw.net/statics/img/58d211cb9c325.png' class='type-img'></image>
+          </view>
+          <view class='type-percent'>97%</view>
+          <view class='type-evaluate'>好评</view>
+        </view>
+      </view>
+      <view>
+        <view class='type-title'>姓名配对</view>
+        <view class='type-text'>姓名配对缘分测试，缘分是男女爱情的开始，缘有多深，爱就有多深，缘有多长，情就有多远。</view>
+      </view>
+    </view>
+    <button class='immediately-measure'>立即測算</button>
+  </view>
+  <view>
+    <view class='subheading'>
+      ·姓名预测狗年吉凶·
+    </view>
+    <view class='type'>
+      <view class='type-left'>
+        <view>
+          <view>
+            <image src='http://ffsm.smdqw.net/statics/img/57eb37f719118.png' class='type-img'></image>
+          </view>
+          <view class='type-percent'>92%</view>
+          <view class='type-evaluate'>
+            <text>人觉得</text>很准
+          </view>
+        </view>
+      </view>
+      <view>
+        <view class='type-title'>姓名详批</view>
+        <view class='type-text'>神算网独家研发的姓名学详批，打破传统姓名学的局限，针对你的姓名提供专属开运方法和运势提醒，让你精准掌握自己名字的利弊，少点挫折！</view>
+      </view>
+    </view>
+    <button class='immediately-measure'>立即測算</button>
+  </view>
+  <view class='footer'>
+    <view>神算网</view>
+    <view>动力十足有限公司</view>
+    <view>地址：北京世贸天阶</view>
+    <view>联系QQ：52623867</view>
+    <view>客服7x24小时在线</view>
+    <view class='we'>
+      <view class='about-us' bindtap='goAboutUs'>关于我们</view>
+      <view bindtap='goContactUs'>联系我们</view>
+    </view>
+  </view>
+</view>

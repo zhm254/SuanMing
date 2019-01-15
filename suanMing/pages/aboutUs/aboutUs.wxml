@@ -1,0 +1,28 @@
+<view>
+  <view class='top'>
+    <view bindtap='goFirst'>
+      <image src='http://ffsm.smdqw.net/statics/ffsm/public/images/icon_home.png' class='top-icon'></image>
+    </view>
+    <view class='about-us'>
+      关于我们
+    </view>
+    <view class='my-measure'>
+      我的测算
+    </view>
+  </view>
+  <view class='middle-text'>
+    <view>动力十足有限公司</view>
+    <view>动力十足有限公司旗下拥有网站事业运营中心、电商运营中心、线下O2O运营中心等。其项目包括命理网、神算网站。日均浏览量超过千万。同时旗下还有多个微信平台，包括订阅号以及服务号，亦有自主研发的APP软件。公司主要以互联网流量、电商销售及线下合作等实现盈利。</view>
+    <view>同时，公司拥有了国家版权局颁发的计算机软件著作权证书、ICP经营许可证等多项资质，积聚了良好的行业人脉和丰富的互联网媒体资源，并与百度、淘宝、UC、腾讯、360等多家互联网行业领跑者结成了紧密的合作关系，成为国内最优秀的同行业强者之一。</view>
+    <view>遥望未来，我司将不忘初心，精益求精，以其专业的技术、一流的服务、优良的信用为用户创造更大的价值。</view>
+  </view>
+  <view class='footer'>
+    <view>神算网</view>
+    <view>动力十足有限公司 地址：北京世贸天阶</view>
+    <view>客服7x24小时在线 & 联系QQ：52623867</view>
+    <view class='we'>
+      <view class='footer-about-us'>关于我们</view>
+      <view>联系我们</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,84 @@
+<view>
+  <view class='top'>
+    <view bindtap='goFirst'>
+      <image src='http://ffsm.smdqw.net/statics/ffsm/public/images/icon_home.png' class='top-icon'></image>
+    </view>
+    <view class='middle-my-measure'>
+      我的测算
+    </view>
+    <view class='my-measure'>
+      我的测算
+    </view>
+  </view>
+  <view>
+    <image src='http://ffsm.smdqw.net/statics/ffsm/index/1/images/topbanner.gif.jpeg' class='banner-img'></image>
+  </view>
+  <view class='middle-container'>
+    <view class='hint-text'>
+      温馨提示：未付款订单只能通过订单号查询，已付费测算可通过绑定手机号查看。
+    </view>
+    <view>
+      <form>
+        <input type='text' placeholder='订单号/手机号' class='input-style'></input>
+        <button class='query-btn'>查询</button>
+      </form>
+      <view class='clear'></view>
+    </view>
+    <view>
+      <view class='order-history'>订单历史</view>
+      <view class='order-list'>
+        <view class='order-item' wx:for='{{orderList}}' wx:key='index'>
+          <view class='order-item-row'>
+            <view>测算名：</view>
+            <view>{{item.measureName}}的{{item.measureType}}</view>
+          </view>
+          <view class='order-item-row'>
+            <view>订单号：</view>
+            <view>{{item.orderNum}}</view>
+          </view>
+          <view class='order-item-row'>
+            <view>状态：</view>
+            <view class='pay-state'>{{item.state}}</view>
+          </view>
+          <button class='click-see'>点击查看</button>
+        </view>
+      </view>
+    </view>
+    <view class='feedback-return'>
+      <button class='feedback' bindtap='goAfterSaleApply'>问题反馈</button>
+      <button class='return' bindtap='goPreviousPage'>返回</button>
+    </view>
+  </view>
+  <view class='popular-measure-container'>
+    <view class='popular-measure'>热门测算</view>
+    <view class='popular-measure-view'>
+      <view class='popular-measure-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/img/57de106713afa.png' class='measure-img' mode='widthFix'></image>
+        </view>
+        <view class='measure-text'>八字财运</view>
+      </view>
+      <view class='popular-measure-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/img/58d211cb9c325.png' class='measure-img' mode='widthFix'></image>
+        </view>
+        <view class='measure-text'>婚姻测算</view>
+      </view>
+      <view class='popular-measure-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/img/57eb37f719118.png' class='measure-img' mode='widthFix'></image>
+        </view>
+        <view class='measure-text'>姓名祥批</view>
+      </view>
+    </view>
+  </view>
+  <view class='footer'>
+    <view>神算网</view>
+    <view>动力十足有限公司 地址：北京世贸天阶</view>
+    <view>客服7x24小时在线 & 联系QQ：52623867</view>
+    <view class='we'>
+      <view class='about-us'>关于我们</view>
+      <view>联系我们</view>
+    </view>
+  </view>
+</view>
