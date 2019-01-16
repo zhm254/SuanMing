@@ -1,0 +1,265 @@
+.top {
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-icon {
+  width: 48rpx;
+  height: 48rpx;
+  margin-left: 16rpx;
+}
+
+.bzjp {
+  font-size: 40rpx;
+  color: #f94990;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.my-measure {
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 2rpx solid #f94990;
+  border-radius: 10rpx;
+  padding: 0 10rpx;
+  color: #f94990;
+  font-size: 28rpx;
+  margin-right: 16rpx;
+}
+
+.banner-img {
+  width: 100%;
+  height: 192rpx;
+}
+
+.container {
+  background-color: #fffdf1;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.img1-view {
+  padding: 0 15px;
+}
+
+.img1 {
+  width: 100%;
+  height: 342rpx;
+}
+
+.subheading {
+  width: 70%;
+  height: 74rpx;
+  margin: 0 15% 10px;
+  background: #f94990;
+  line-height: 74rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.about-bzsm {
+  padding: 0 15px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333;
+}
+
+.immediately-open {
+  background-color: #fff2db;
+  border-radius: 10px;
+  border: 1px solid #f3d59f;
+  margin: 10px 15px 15px;
+  color: #535353;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.personal-information {
+  margin: 10px 10px 0;
+  background-color: #fff9db;
+  border: 1px solid #f3d59f;
+}
+
+.personal-information-item {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  border-bottom: 1px solid #f3d59f;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  border-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  color: #a61222;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.content {
+  width: 76%;
+}
+
+.content input {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding: 5px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+radio .wx-radio-input {
+  border-radius: 100%;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+radio .wx-radio-input.wx-radio-input-checked::before {
+  border-radius: 100%; /* 圆角 */
+  width: 38rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+  height: 38rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+  line-height: 38rpx;
+  text-align: center;
+  font-size: 30rpx; /* 对勾大小 30rpx */
+  color: #fff; /* 对勾颜色 白色 */
+  background-color: #a61222;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}
+
+.radio-man {
+  margin-right: 40rpx;
+}
+
+.content text {
+  color: #333;
+  font-size: 16px;
+}
+
+.picker {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 4px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.down-arrow {
+  margin: 22rpx 8rpx 0 0;
+  width: 16rpx;
+  height: 16rpx;
+  border-bottom: 1rpx solid #a61222;
+  border-right: 1rpx solid #a61222;
+  transform: rotate(45deg);
+  float: right;
+}
+
+.born-time-view {
+  line-height: 40px;
+  height: 40px;
+}
+
+.agree-protocol {
+  padding: 8px 10px;
+  text-align: center;
+}
+
+.agree {
+  font-size: 16px;
+  color: #333;
+}
+
+.personal-secret {
+  color: #ff8b58;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+checkbox .wx-checkbox-input {
+  border-radius: 5px;
+  width: 32rpx;
+  height: 32rpx;
+}
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  color: #444;
+}
+
+.immediately-measure {
+  padding: 0 0 10px;
+  margin: 0 10px;
+}
+
+.immediately-measure-btn {
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  background-color: #f94990;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.measure-num {
+  margin: 0 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.magnifier {
+  width: 14px;
+  height: 11px;
+  margin-left: 10px;
+}
+
+.num {
+  color: #f94990;
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.my-measure-text {
+  margin-left: 10rpx;
+  text-decoration: underline;
+}
+
+.img-view {
+  margin: 10px 0;
+}
+
+.help-img {
+  width: 100%;
+  height: 1126rpx;
+}
+
+.message-img {
+  width: 100%;
+  height: 574rpx;
+}
+
+.contrast-img {
+  width: 100%;
+  height: 868rpx;
+}

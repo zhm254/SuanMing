@@ -24,7 +24,7 @@
         <view class='type-text'>八字算命是传统文化中最古老而又最准确的算命方法，通过将一个人的出生年月日时进行八字排盘变成由天干、地支所组成的八个字，再对这八个字的五行相生、十神关系等进行分析，测算出人一生的财运、婚姻、事业、健康等等。</view>
       </view>
     </view>
-    <button class='immediately-measure'>立即測算</button>
+    <button class='immediately-measure' bindtap='goBzjp'>立即測算</button>
   </view>
   <view>
     <view class='subheading'>

@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/bzjp/bzjp",
+    "pages/first/first",
     "pages/afterSaleApply/afterSaleApply",
     "pages/myMeasure/myMeasure",
-    "pages/first/first",
     "pages/contactUs/contactUs",
     "pages/aboutUs/aboutUs"
   ],

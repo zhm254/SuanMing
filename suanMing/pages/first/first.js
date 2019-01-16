@@ -7,6 +7,11 @@ Page({
   data: {
 
   },
+  goBzjp: function() {
+    wx.reLaunch({
+      url: '../bzjp/bzjp'
+    })
+  },
   goAboutUs: function() {
     wx.navigateTo({
       url: '../aboutUs/aboutUs',
