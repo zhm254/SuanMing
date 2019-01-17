@@ -45,7 +45,7 @@
         <view class='type-text'>姓名配对缘分测试，缘分是男女爱情的开始，缘有多深，爱就有多深，缘有多长，情就有多远。</view>
       </view>
     </view>
-    <button class='immediately-measure'>立即測算</button>
+    <button class='immediately-measure' bindtap='goXmpd'>立即測算</button>
   </view>
   <view>
     <view class='subheading'>

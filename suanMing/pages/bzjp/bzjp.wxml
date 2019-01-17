@@ -100,4 +100,13 @@
       <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/0_img_3.jpg' class='contrast-img'></image>
     </view>
   </view>
+  <view class='footer'>
+    <view>神算网</view>
+    <view>动力十足有限公司 地址：北京世贸天阶</view>
+    <view>客服7x24小时在线 & 联系QQ：52623867</view>
+    <view class='we'>
+      <view class='about-us'>关于我们</view>
+      <view>联系我们</view>
+    </view>
+  </view>
 </view>

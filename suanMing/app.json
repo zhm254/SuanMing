@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/xmpd/xmpd",
     "pages/bzjp/bzjp",
     "pages/first/first",
     "pages/afterSaleApply/afterSaleApply",

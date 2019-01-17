@@ -1,0 +1,131 @@
+<view>
+  <view class='top'>
+    <view bindtap='goFirst'>
+      <image src='http://ffsm.smdqw.net/statics/ffsm/public/images/icon_home.png' class='top-icon'></image>
+    </view>
+    <view class='xmpd'>
+      姓名配对
+    </view>
+    <view class='my-measure'>
+      我的测算
+    </view>
+  </view>
+  <view>
+    <image src='http://ffsm.smdqw.net/statics/ffsm/xmpeidui/2/images/banner.jpg' class='banner-img'></image>
+  </view>
+  <view class='form-view'>
+    <image src='http://ffsm.smdqw.net/statics/ffsm/xmpeidui/2/images/banner_2.jpg' class='img2'></image>
+    <view class='form-container'>
+      <form class='name-form'>
+        <view class='input-box'>
+          <view class='male'>
+            <view class='sex-text'>男主</view>
+            <view class='name'>
+              <text class='name-text'>姓氏:</text>
+              <input placeholder="输入姓" class='name-input'></input>
+            </view>
+            <view class='name'>
+              <text class='name-text'>名字:</text>
+              <input placeholder="输入名" class='name-input'></input>
+            </view>
+          </view>
+          <view class='female'>
+            <view class='sex-text'>女主</view>
+            <view class='name'>
+              <text class='name-text'>姓氏:</text>
+              <input placeholder="输入姓" class='name-input'></input>
+            </view>
+            <view class='name'>
+              <text class='name-text'>名字:</text>
+              <input placeholder="输入名" class='name-input'></input>
+            </view>
+          </view>
+          <view style='clear:both'></view>
+        </view>
+        <view class='agree-protocol'>
+          <checkbox checked='true' color='#424242'></checkbox>
+          <text>同意</text>
+          <text class='personal-secret'>个人隐私协议</text>
+        </view>
+        <view class='begin-matching'>
+          <button class='matching-btn'>开始配对</button>
+          <view class='think-precise'>
+            已有
+            <text class='number'>1594691</text>人觉得很准
+          </view>
+        </view>
+      </form>
+    </view>
+  </view>
+  <view class='empty-view'></view>
+  <view class='harvest'>
+    <view class='harvest-text'>测算后您将获得</view>
+    <view>
+      <image src='http://ffsm.smdqw.net/statics/img/site1.png' class='img3'></image>
+      <image src='http://ffsm.smdqw.net/statics/img/site2.png' class='img3'></image>
+      <image src='http://ffsm.smdqw.net/statics/img/site3.png' class='img3'></image>
+      <image src='http://ffsm.smdqw.net/statics/img/site4.png' class='img4'></image>
+      <image src='http://ffsm.smdqw.net/statics/img/site5.png' class='img4'></image>
+      <image src='http://ffsm.smdqw.net/statics/img/site6.png' class='img4'></image>
+    </view>
+  </view>
+  <view class='feedback'>
+    <view class='feedback-title'>命主反馈</view>
+    <view class='feedback-box'>
+      <view class='feedback-item'>
+        <view class='item-title'>
+          <text>金先生 138****7916</text>
+          <text class='love-state'>热恋中</text>
+        </view>
+        <view class='feedback-detail'>不错，老师建议很中肯，下个月打算去女朋友的家乡见她的父母，希望能得到女朋友父母的认同。</view>
+      </view>
+      <view class='feedback-item'>
+        <view class='item-title'>
+          <text>陈小姐 150****1378</text>
+          <text class='love-state'>暧昧中</text>
+        </view>
+        <view class='feedback-detail'>最近有好几个男生对我示好，个人觉得自己条件也算还过得去，就是不明白他们到底是不是真的对我有意思，所以测算了一下彼此的名字，现在我大概知道自己该怎么做了o(^▽^)o。</view>
+      </view>
+      <view class='feedback-item'>
+        <view class='item-title'>
+          <text>洪先生 186****7849</text>
+          <text class='love-state'>热恋中</text>
+        </view>
+        <view class='feedback-detail'>和对象处了7年了，她一直都不着急结婚，相反双方父母都挺着急的，通过测算才知道我们适合晚婚，我这才放下心来。</view>
+      </view>
+    </view>
+    <view class='me-too' bindtap='meTo'>我也要测</view>
+  </view>
+  <view class='popular-measure-container'>
+    <view class='popular-measure'>热门测算</view>
+    <view class='popular-measure-view'>
+      <view class='popular-measure-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/img/57de106713afa.png' class='measure-img' mode='widthFix'></image>
+        </view>
+        <view class='measure-text'>八字财运</view>
+      </view>
+      <view class='popular-measure-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/img/58d211cb9c325.png' class='measure-img' mode='widthFix'></image>
+        </view>
+        <view class='measure-text'>婚姻测算</view>
+      </view>
+      <view class='popular-measure-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/img/57eb37f719118.png' class='measure-img' mode='widthFix'></image>
+        </view>
+        <view class='measure-text'>姓名祥批</view>
+      </view>
+    </view>
+  </view>
+  <view class='footer'>
+    <view>神算网</view>
+    <view>动力十足有限公司 地址：北京世贸天阶</view>
+    <view>客服7x24小时在线 & 联系QQ：52623867</view>
+    <view class='we'>
+      <view class='about-us'>关于我们</view>
+      <view>联系我们</view>
+    </view>
+  </view>
+</view>

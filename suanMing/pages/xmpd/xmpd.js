@@ -1,4 +1,4 @@
-// pages/first/first.js
+// pages/xmpd/xmpd.js
 Page({
 
   /**
@@ -7,24 +7,15 @@ Page({
   data: {
 
   },
-  goBzjp: function() {
+  meTo: function() {
+    wx.pageScrollTo({
+      scrollTop: 0,
+      duration: 300
+    })
+  },
+  goFirst: function() {
     wx.reLaunch({
-      url: '../bzjp/bzjp'
-    })
-  },
-  goXmpd: function() {
-    wx.reLaunch({
-      url: '../xmpd/xmpd'
-    })
-  },
-  goAboutUs: function() {
-    wx.navigateTo({
-      url: '../aboutUs/aboutUs',
-    })
-  },
-  goContactUs: function() {
-    wx.navigateTo({
-      url: '../contactUs/contactUs',
+      url: '../first/first'
     })
   },
   /**
