@@ -68,7 +68,7 @@
         <view class='type-text'>神算网独家研发的姓名学详批，打破传统姓名学的局限，针对你的姓名提供专属开运方法和运势提醒，让你精准掌握自己名字的利弊，少点挫折！</view>
       </view>
     </view>
-    <button class='immediately-measure'>立即測算</button>
+    <button class='immediately-measure' bindtap='goXmxp'>立即測算</button>
   </view>
   <view class='footer'>
     <view>神算网</view>

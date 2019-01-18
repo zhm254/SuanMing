@@ -1,0 +1,201 @@
+<view>
+  <view class='top'>
+    <view>
+      <image src='http://ffsm.smdqw.net/statics/ffsm/public/images/icon_home.png' class='top-icon'></image>
+    </view>
+    <view class='bzjp'>
+      八字精批
+    </view>
+    <view class='my-measure'>
+      我的测算
+    </view>
+  </view>
+  <view>
+    <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/0.jpg' class='banner-img'></image>
+  </view>
+  <view class='order-pay-box'>
+    <view class='order-num'>订单编号：201901181643081547800988</view>
+    <view class='user'>
+      <view>
+        <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_1.jpg' class='img1'></image>
+      </view>
+      <view class='user-name-container'>
+        <view class='user-name'>神算网</view>
+        <view class='user-name'>李龙</view>
+      </view>
+    </view>
+    <view class='pay-tip'>
+      <view>
+        <text>已有</text>
+        <text class='key-text'>23302574</text>
+        <text>人进行了测算知晓了自己</text>
+        <text class='key-text'>事业财运、婚姻情感</text>
+        <text>的情况，并根据老师建议做出调整，产生显著效果，</text>
+        <text class='key-text'>98.6%</text>
+        <text>用户觉得本测算有帮助！</text>
+      </view>
+      <view>大师亲测微信：
+        <text class='weixin-num'>s55-jpf</text>
+        <text>超准！</text>
+      </view>
+    </view>
+    <view class='order-price'>
+      <view class='original-cost'>原价：￥168</view>
+      <view>
+        <text>优惠价：</text>
+        <text class='preferential-price'>￥0.01</text>
+      </view>
+      <view class='choose-pay-way'>请选择喜欢的付款方式</view>
+      <view class='pay-box'>
+        <view class='weixin-pay'></view>
+        <view class='zhifubao-pay'></view>
+      </view>
+    </view>
+  </view>
+  <view class='harvest-container'>
+    <view class='harvest-hint'>支付完成后您将获得以下重要内容</view>
+    <view class='harvest-box'>
+      <view class='harvest-title'>八字排盘</view>
+      <view class='harvest-content'>
+        <view class='harvest-text'>今年内有何重大变故，亲情、爱情、事业、财运等有什么需要特别注意的地方？今生是富是穷，姻缘是好是坏，财运是多是少，其实这一切的信息就蕴藏在你的八字当中。</view>
+        <view class='harvest-img'>
+          <view>
+            <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_2.jpg' class='img2'></image>
+          </view>
+          <view class='immediately-unlock'>立即解锁</view>
+        </view>
+      </view>
+    </view>
+    <view class='harvest-box'>
+      <view class='harvest-title'>财运分析</view>
+      <view class='harvest-content'>
+        <view class='harvest-text'>今生财运走势，先天财运如何？今生是否有破财危机？一目了然的财运分析，更有详细流年财运分析和增强的财运方法，让你赚个盘满盆满！</view>
+        <view class='harvest-img'>
+          <view>
+            <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_3.jpg' class='img2'></image>
+          </view>
+          <view class='immediately-unlock'>立即解锁</view>
+        </view>
+      </view>
+    </view>
+    <view class='harvest-box'>
+      <view class='harvest-title'>姻缘走势</view>
+      <view class='harvest-content2'>
+        <view class='harvest-content2-inner'>
+          <view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>详细剖析你的今生姻缘</text>
+            </view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>分析您当下感情状况</text>
+            </view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>婚姻出现裂痕如何挽救</text>
+            </view>
+          </view>
+          <view class='lock'></view>
+        </view>
+      </view>
+    </view>
+    <view class='harvest-box'>
+      <view class='harvest-title'>事业成就</view>
+      <view class='harvest-content2'>
+        <view class='harvest-content2-inner'>
+          <view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>命中事业是坎坷还是平步直上</text>
+            </view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>命中哪些贵人能助您事业腾飞</text>
+            </view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>专业老师助您找准事业方向</text>
+            </view>
+          </view>
+          <view class='lock'></view>
+        </view>
+      </view>
+    </view>
+    <view class='harvest-box'>
+      <view class='harvest-title'>性格分析</view>
+      <view class='harvest-content2'>
+        <view class='harvest-content2-inner'>
+          <view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>性格优势、劣势立即知晓</text>
+            </view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>人生运势如何受性格影响</text>
+            </view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>如何扬长避短发力未来</text>
+            </view>
+          </view>
+          <view class='lock'></view>
+        </view>
+      </view>
+    </view>
+    <view class='harvest-box'>
+      <view class='harvest-title'>健康状况</view>
+      <view class='harvest-content2'>
+        <view class='harvest-content2-inner'>
+          <view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>哪些疾病时刻威胁着您的健康</text>
+            </view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>饮食起居有哪些注意事项</text>
+            </view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>哪些方法能帮助您提升健康运</text>
+            </view>
+          </view>
+          <view class='lock'></view>
+        </view>
+      </view>
+    </view>
+    <view class='harvest-box'>
+      <view class='harvest-title'>流月运程</view>
+      <view class='harvest-content2'>
+        <view class='harvest-content2-inner'>
+          <view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>流月事业，情感，财运全解析</text>
+            </view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>哪些月份您会遭受灾祸</text>
+            </view>
+            <view class='harvest-content2-inner-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_img_icon.png' class='img3'></image>
+              <text class='harvest-content2-inner-text'>如何避免祸端转危为安</text>
+            </view>
+          </view>
+          <view class='lock'></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='footer'>
+    <view>神算网</view>
+    <view>动力十足有限公司 地址：北京世贸天阶</view>
+    <view>客服7x24小时在线 & 联系QQ：52623867</view>
+    <view class='we'>
+      <view class='about-us'>关于我们</view>
+      <view>联系我们</view>
+    </view>
+  </view>
+</view>

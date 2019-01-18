@@ -1,0 +1,138 @@
+<view>
+  <view class='top'>
+    <view bindtap='goFirst'>
+      <image src='http://ffsm.smdqw.net/statics/ffsm/public/images/icon_home.png' class='top-icon'></image>
+    </view>
+    <view class='xmxp'>
+      姓名详批
+    </view>
+    <view class='my-measure'>
+      我的测算
+    </view>
+  </view>
+  <view>
+    <image src='http://ffsm.smdqw.net/statics/ffsm/jieming/1/images/img_banner.jpg' class='banner-img'></image>
+  </view>
+  <view class='tab-bar'>
+    <view class='name-explain-bar'>
+      <view class='name-explain'>姓名解名</view>
+      <view class='bar-divider-line'></view>
+    </view>
+    <view class='my-measure-bar'>
+      <view class='bar-my-measure'>我的测算</view>
+    </view>
+  </view>
+  <view>
+    <form>
+      <view class='form-view'>
+        <view class='form-container'>
+          <view class='form-row'>
+            <view class='form-label'>您的姓氏</view>
+            <view class='form-content'>
+              <input placeholder='请输入姓氏（必须汉字）' class='input-area'></input>
+            </view>
+          </view>
+          <view class='form-row'>
+            <view class='form-label'>您的名字</view>
+            <view class='form-content'>
+              <input placeholder='请输入名字（必须汉字）' class='input-area'></input>
+            </view>
+          </view>
+          <view class='form-row'>
+            <view class='form-label'>您的性别</view>
+            <view class='form-content'>
+              <radio-group class='sex-radio-group' bindchange="sexRadioChange">
+                <radio checked='true' value="man" color='#F94990' class='man-radio'>
+                  <text>男</text>
+                </radio>
+                <radio value="woman" color='#F94990'>
+                  <text>女</text>
+                </radio>
+              </radio-group>
+            </view>
+          </view>
+          <view class='form-row'>
+            <view class='form-label'>出生日期</view>
+            <view class='form-content'>
+              <view bindtap='showDatePickerPlus' class='picker'>
+                <text>{{birthday.dateType}}</text>
+                <text>{{birthday.dateStr}}</text>
+                <view class='right-arrow'></view>
+              </view>
+              <datepicker-plus bind:submit='submitBirthday' showDatePickerPlus='{{isShowDatePicker}}' initDate="2018-02-12">
+              </datepicker-plus>
+            </view>
+          </view>
+          <view class='last-form-row'>
+            <view class='form-label'>出生时辰</view>
+            <view class='form-content'>
+              <picker range="{{bornTime}}" bindchange="bornTimeChange" class='picker'>
+                <view class='born-time-view'>
+                  {{bornTime[bornTimeIndex]}}
+                  <view class='right-arrow'></view>
+                </view>
+              </picker>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='agree-protocol'>
+        <checkbox checked='true' color='#424242'></checkbox>
+        <text>同意</text>
+        <text class='personal-secret'>个人隐私协议</text>
+      </view>
+      <view class='immediately-explain-name'>
+        <button class='explain-name-btn'>马上解名</button>
+      </view>
+      <view class='product-introduction-container'>
+        <view class='product-introduction'>产品介绍</view>
+        <view class='influence-container'>
+          <view class='explain-text'>我的姓名对我的影响？</view>
+          <view class='influence-explain-text'>点击测算后解锁所有信息</view>
+          <view>
+            <image src='http://ffsm.smdqw.net/statics/ffsm/jieming/1/images/img_lei.jpg' class='img2'></image>
+          </view>
+        </view>
+        <view class='unlock-container'>
+          <view class='explain-text'>解开姓名背后的秘密，就等于掌握了自己人生的杠杆</view>
+          <view class='unlock-explain-text'>一个人的健康、事业、家庭、人际关系等在一定程度上会从姓名上反映出来。姓名五格的生克关系对健康的影响很大，从天、人、地三格的数理关系可推断人的健康状况和生活顺利与否。</view>
+          <view>
+            <image src='http://ffsm.smdqw.net/statics/ffsm/jieming/1/images/img_syt.jpg' class='img3'></image>
+          </view>
+        </view>
+      </view>
+    </form>
+  </view>
+  <view class='popular-measure-container'>
+    <view class='popular-measure'>热门测算</view>
+    <view class='popular-measure-view'>
+      <view class='popular-measure-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/img/57de106713afa.png' class='measure-img' mode='widthFix'></image>
+        </view>
+        <view class='measure-text'>八字财运</view>
+      </view>
+      <view class='popular-measure-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/img/58d211cb9c325.png' class='measure-img' mode='widthFix'></image>
+        </view>
+        <view class='measure-text'>婚姻测算</view>
+      </view>
+      <view class='popular-measure-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/img/57eb37f719118.png' class='measure-img' mode='widthFix'></image>
+        </view>
+        <view class='measure-text'>姓名祥批</view>
+      </view>
+    </view>
+  </view>
+  <view class='footer'>
+    <view>神算网</view>
+    <view>动力十足有限公司 地址：北京世贸天阶</view>
+    <view>客服7x24小时在线 & 联系QQ：52623867</view>
+    <view class='we'>
+      <view class='about-us'>关于我们</view>
+      <view>联系我们</view>
+    </view>
+  </view>
+</view>

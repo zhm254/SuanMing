@@ -1,0 +1,272 @@
+.top {
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-icon {
+  width: 48rpx;
+  height: 48rpx;
+  margin-left: 16rpx;
+}
+
+.bzjp {
+  font-size: 40rpx;
+  color: #a83b00;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.my-measure {
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 2rpx solid #db8732;
+  border-radius: 10rpx;
+  padding: 0 10rpx;
+  color: #db8732;
+  font-size: 28rpx;
+  margin-right: 16rpx;
+}
+
+.banner-img {
+  width: 100%;
+  height: 258rpx;
+  display: block;
+}
+
+.order-pay-box {
+  background-color: #fff;
+  border-top: 1px solid #e2ccb0;
+  margin-top: 10px;
+  border-bottom: 1px solid #e2ccb0;
+}
+
+.order-num {
+  color: #2b2b2b;
+  padding: 10px;
+  border-bottom: 1px solid #e2ccb0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.user {
+  padding: 20px 20px 10px;
+}
+
+.img1 {
+  width: 100%;
+  height: 214rpx;
+}
+
+.user-name-container {
+  padding: 5px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-name {
+  width: 33%;
+  text-align: center;
+  line-height: 24px;
+  color: #2b2b2b;
+  font-size: 14px;
+}
+
+.pay-tip {
+  background-color: #ffe9ca;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333;
+}
+
+.key-text {
+  color: #f94990;
+}
+
+.weixin-num {
+  color: #f94990;
+  font-weight: bold;
+}
+
+.order-price {
+  text-align: center;
+  color: #2b2b2b;
+  font-size: 16px;
+  margin: 10px;
+  line-height: 1.4;
+}
+
+.original-cost {
+  text-decoration: line-through;
+}
+
+.preferential-price {
+  color: #f94990;
+  font-weight: bold;
+}
+
+.choose-pay-way {
+  color: #ababab;
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+.pay-box {
+  padding: 0 10px 10px;
+}
+
+.weixin-pay {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 10px 20px 0;
+  border: 1px solid #949494;
+  border-radius: 5px;
+  background: url(http://ffsm.smdqw.net/statics/ffsm/public/images/m_weixin.jpg) center center no-repeat #f9f9f9;
+  background-size: 90px;
+}
+
+.zhifubao-pay {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 10px 20px 0;
+  border: 1px solid #949494;
+  border-radius: 5px;
+  background: url(http://ffsm.smdqw.net/statics/ffsm/public/images/m_alipay.jpg) center center no-repeat #f9f9f9;
+  background-size: 90px;
+}
+
+.harvest-container {
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.harvest-hint {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+}
+
+.harvest-box {
+  margin: 10px 0 0;
+}
+
+.harvest-title {
+  height: 30px;
+  line-height: 32px;
+  background: url(http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_tit_bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.harvest-content {
+  border: 2px solid #f94990;
+  background-color: #faf1d4;
+}
+
+.harvest-text {
+  padding: 10px 10px 0;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333;
+}
+
+.harvest-img {
+  margin: 2px;
+  position: relative;
+}
+
+.img2 {
+  width: 100%;
+  height: 298rpx;
+  display: block;
+}
+
+.immediately-unlock {
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 12%;
+  line-height: 32px;
+  background-color: #f94990;
+  border-radius: 16px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.harvest-content2 {
+  background: url(http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_box_bg.jpg) bottom no-repeat #faf1d4;
+  background-size: 100% auto;
+  border: 2px solid #f94990;
+}
+
+.harvest-content2-inner {
+  margin: 10px;
+  padding: 10px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lock {
+  width: 30px;
+  height: 40px;
+  background: url(http://ffsm.smdqw.net/statics/ffsm/bazijingpi/1/images/1_icon_lock.png) no-repeat;
+  background-size: 100% auto;
+  margin-right: 10px;
+}
+
+.img3 {
+  width: 16px;
+  height: 16px;
+}
+
+.harvest-content2-inner-text {
+  font-size: 14px;
+  color: #333;
+  margin-left: 4rpx;
+}
+
+.harvest-content2-inner-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 24px;
+  height: 24px;
+}
+
+.footer {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  color: #6c6c6c;
+  padding: 20px 0;
+  font-size: 12px;
+  line-height: 1.4;
+  background-color: #f6f6f6;
+}
+
+.we {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rpx;
+}
+
+.about-us {
+  margin-right: 24rpx;
+}
