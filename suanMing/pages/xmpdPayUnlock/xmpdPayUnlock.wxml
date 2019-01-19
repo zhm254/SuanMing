@@ -1,0 +1,98 @@
+<view>
+  <view class='top'>
+    <view>
+      <image src='http://ffsm.smdqw.net/statics/ffsm/public/images/icon_home.png' class='top-icon'></image>
+    </view>
+    <view class='xmpd'>
+      姓名配对
+    </view>
+    <view class='my-measure'>
+      我的测算
+    </view>
+  </view>
+  <view class='order-top'>
+    <image src='http://ffsm.smdqw.net/statics/ffsm/xmpeidui/2/images/banner_result.jpg' class='banner-img'></image>
+    <view class='order-num'>订单号:20190119936251547861785</view>
+  </view>
+  <view class='order-info'>
+    <view class='order-info-inner'>
+      <view>
+        <text>已有</text>
+        <text class='key-text'>1597324</text>
+        <text>人进行了测算，测算结果帮助他们掌握了正确的求爱方式，找到了自己的真爱，</text>
+        <text class='key-text'>96.7%</text>
+        <text>的客户对测算结果表示满意。</text>
+      </view>
+      <view>
+        <text>大师亲测微信：</text>
+        <text class='weixin-num'>s55-jpf</text>
+        <text>超准！</text>
+      </view>
+    </view>
+  </view>
+  <view class='order-pay'>
+    <view class='order-pay-title'>即将为你揭晓以下完整测算内容</view>
+    <view class='order-price'>
+      <text>结缘价:</text>
+      <text class='price'>0.01元</text>
+    </view>
+    <view class='order-pay-text'>请选择喜欢的付款方式</view>
+    <view class='pay-way-box'>
+      <view class='weixin-pay'></view>
+      <view class='zhifubao-pay'></view>
+    </view>
+  </view>
+  <view class='forecast'>
+    <view class='forecast-title'>姓名相合测算部分预告</view>
+    <view class='man-and-woman'>
+      <view class='man-and-woman-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/ffsm/xmpeidui/2/images/male_icon.png' class='sex-icon'></image>
+        </view>
+        <view class='name'>张三</view>
+        <view class='host'>男主角</view>
+      </view>
+      <view class='man-and-woman-item'>
+        <view class='vs'>VS</view>
+        <view class='matching'>配对</view>
+      </view>
+      <view class='man-and-woman-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/ffsm/xmpeidui/2/images/female_icon.png' class='sex-icon'></image>
+        </view>
+        <view class='name'>李四</view>
+        <view class='host'>女主角</view>
+      </view>
+    </view>
+    <view class='matching-degree'>
+      <view class='matching-degree-title'>匹配契合度</view>
+      <view class='matching-degree-img'></view>
+    </view>
+    <view class='forecast-bottom'>
+      <view class='love-book-view'>
+        <image src='http://ffsm.smdqw.net/statics/ffsm/xmpeidui/2/images/book.png' class='love-book' mode='widthFix'></image>
+      </view>
+      <view>你们是天生一对，还是有缘无分</view>
+    </view>
+  </view>
+  <view class='harvest'>
+    <view class='harvest-title'>测算后您将获得</view>
+    <view>
+      <image src='http://ffsm.smdqw.net/statics/img/site1.png' class='img1'></image>
+      <image src='http://ffsm.smdqw.net/statics/img/site2.png' class='img1'></image>
+      <image src='http://ffsm.smdqw.net/statics/img/site3.png' class='img1'></image>
+      <image src='http://ffsm.smdqw.net/statics/img/site4.png' class='img2'></image>
+      <image src='http://ffsm.smdqw.net/statics/img/site5.png' class='img2'></image>
+      <image src='http://ffsm.smdqw.net/statics/img/site6.png' class='img2'></image>
+    </view>
+  </view>
+  <view class='footer'>
+    <view>神算网</view>
+    <view>动力十足有限公司 地址：北京世贸天阶</view>
+    <view>客服7x24小时在线 & 联系QQ：52623867</view>
+    <view class='we'>
+      <view class='about-us'>关于我们</view>
+      <view>联系我们</view>
+    </view>
+  </view>
+</view>

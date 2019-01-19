@@ -34,7 +34,8 @@
         <text class='key-text'>98.6%</text>
         <text>用户觉得本测算有帮助！</text>
       </view>
-      <view>大师亲测微信：
+      <view>
+        <text>大师亲测微信：</text>
         <text class='weixin-num'>s55-jpf</text>
         <text>超准！</text>
       </view>

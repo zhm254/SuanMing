@@ -1,0 +1,303 @@
+<view>
+  <view class='top'>
+    <view>
+      <image src='http://ffsm.smdqw.net/statics/ffsm/public/images/icon_home.png' class='top-icon'></image>
+    </view>
+    <view class='xmxp'>
+      姓名详批
+    </view>
+    <view class='my-measure'>
+      我的测算
+    </view>
+  </view>
+  <view class='binding-order'>
+    <view class='binding-order-title'>绑定订单可以多次查看</view>
+    <view class='binding-order-content'>
+      <view class='binding-order-item'>
+        <view class='binding-order-label'>产品名称：</view>
+        <view class='binding-order-detail'>马小七的姓名详解</view>
+      </view>
+      <view class='binding-order-item'>
+        <view class='binding-order-label'>订单编号：</view>
+        <view class='binding-order-detail'>201901191436061547879766</view>
+      </view>
+      <view class='binding-order-item'>
+        <view class='binding-order-label'>亲测微信：</view>
+        <view class='weixin-num'>s55-jpf</view>
+      </view>
+    </view>
+  </view>
+  <view class='provide-result'>
+    <view class='provide-result-title'>本次为您免费提供的结果：</view>
+    <view class='provide-result-container'>
+      <view class='provide-result-row'>
+        <view class='provide-result-item1'>姓名测算结果</view>
+        <view class='provide-result-item1'>您的八字命盘</view>
+      </view>
+      <view class='provide-result-row'>
+        <view class='provide-result-item2'>您的性格特征</view>
+        <view class='provide-result-item2'>您的事业财运</view>
+      </view>
+      <view class='provide-result-row'>
+        <view class='provide-result-item2'>您的恋爱婚姻</view>
+        <view class='provide-result-item2'>您的健康运势</view>
+      </view>
+      <view class='provide-result-row'>
+        <view class='provide-result-item2'>您的晚景解析</view>
+        <view class='clear-enlarge'></view>
+      </view>
+    </view>
+    <view class='buy-unlock'>
+      <text>一次购买解锁查看所有内容：</text>
+      <text class='price'>￥0.01</text>
+    </view>
+    <view>
+      <view class='pay-way-box'>
+        <view class='weixin-pay'></view>
+        <view class='zhifubao-pay'></view>
+      </view>
+    </view>
+  </view>
+  <view class='name-measure-result'>
+    <view class='measure-result-title'>
+      <view class='measure-result-title-inner'>
+        <view class='img-view1'></view>
+        <view class='text-view1'>您的姓名测算结果</view>
+      </view>
+      <view class='measure-result-title-inner'>
+        <view class='text-view2'>免费</view>
+        <view class='img-view2'></view>
+      </view>
+    </view>
+    <view class='name-measure-result-container'>
+      <view class='name-measure-result-item1'>马小七（男）</view>
+      <view class='name-measure-result-item2'>公历生日：1980年3月1日 时</view>
+      <view class='name-measure-result-item2'>农历生日：一九八○年正月十五日</view>
+      <view class='name-measure-result-item2'>您的姓名三才五行组合：</view>
+      <view class='zuhe'>
+        <view class='qianyi-and-ming'>
+          <view class='qianyi'>
+            <view class='qianyigong'>迁移宫</view>
+            <view class='qianyigong-view'>
+              <text class='qianyigong-num'>8</text>
+              <text class='qianyigong-text'>金</text>
+            </view>
+          </view>
+          <view class='ming'>
+            <view class='qianyigong'>命宫</view>
+            <view class='qianyigong-view'>
+              <text class='qianyigong-num'>20</text>
+              <text class='qianyigong-text'>水</text>
+            </view>
+          </view>
+        </view>
+        <view class='line1'></view>
+        <view>
+          <view class='zuhe-middle-text1'>白</view>
+          <view class='zuhe-middle-text2'>马</view>
+          <view class='zuhe-middle-text2'>小</view>
+          <view class='zuhe-middle-text2'>七</view>
+        </view>
+        <view class='zuhe-middle-num'>
+          <view>1</view>
+          <view>10</view>
+          <view>3</view>
+          <view>7</view>
+        </view>
+        <view class='line2'>
+          <view></view>
+          <view></view>
+          <view></view>
+        </view>
+        <view class='fumu-jie-nupu'>
+          <view class='fu-mu'>
+            <view class='fu-mu-gong'>父母宫</view>
+            <view class='fu-mu-gong-view'>
+              <text class='fu-mu-gong-num'>11</text>
+              <text class='fu-mu-gong-text'>木</text>
+            </view>
+          </view>
+          <view class='ji-e'>
+            <view class='fu-mu-gong'>疾厄宫</view>
+            <view class='fu-mu-gong-view'>
+              <text class='fu-mu-gong-num'>13</text>
+              <text class='fu-mu-gong-text'>火</text>
+            </view>
+          </view>
+          <view class='ji-e'>
+            <view class='fu-mu-gong'>奴仆宫</view>
+            <view class='fu-mu-gong-view'>
+              <text class='fu-mu-gong-num'>10</text>
+              <text class='fu-mu-gong-text'>水</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='bzmp'>
+    <view class='measure-result-title'>
+      <view class='measure-result-title-inner'>
+        <view class='img-view1'></view>
+        <view class='text-view1'>您的八字命盘</view>
+      </view>
+      <view class='measure-result-title-inner'>
+        <view class='text-view2'>免费</view>
+        <view class='img-view2'></view>
+      </view>
+    </view>
+    <view>
+      <view class='bzmp-top-text'>下列是您的八字命盘。您是楼宿之鸡，出生于食果之猴年。日天干代表您，所以您是属剑峰金。</view>
+      <view class='bzmp-table'>
+        <view>
+          <view class='table-first'>年（祖先）</view>
+          <view class='table-second'>
+            <view class='table-second-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/jieming/1/images/bzmp/wumu.png' class='img'></image>
+            </view>
+            <view class='table-second-item'>庚申</view>
+            <view class='table-second-item'>石榴木</view>
+          </view>
+          <view class='table-second'>
+            <view class='table-second-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/jieming/1/images/bzmp/hou.png' class='img'></image>
+            </view>
+            <view class='table-second-item'>庚申</view>
+            <view class='table-second-item'>食果之猴</view>
+          </view>
+        </view>
+        <view>
+          <view class='table-first'>月（父母）</view>
+          <view class='table-second'>
+            <view class='table-second-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/jieming/1/images/bzmp/wutu.png' class='img'></image>
+            </view>
+            <view class='table-second-item'>戊寅</view>
+            <view class='table-second-item'>城墙土</view>
+          </view>
+          <view class='table-second'>
+            <view class='table-second-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/jieming/1/images/bzmp/hu.png' class='img'></image>
+            </view>
+            <view class='table-second-item'>戊寅</view>
+            <view class='table-second-item'>过山之虎</view>
+          </view>
+        </view>
+        <view>
+          <view class='table-first'>日（自己）</view>
+          <view class='table-second'>
+            <view class='table-second-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/jieming/1/images/bzmp/wujin.png' class='img'></image>
+            </view>
+            <view class='table-second-item'>癸酉</view>
+            <view class='table-second-item'>剑锋金</view>
+          </view>
+          <view class='table-second'>
+            <view class='table-second-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/jieming/1/images/bzmp/ji.png' class='img'></image>
+            </view>
+            <view class='table-second-item'>癸酉</view>
+            <view class='table-second-item'>楼宿之鸡</view>
+          </view>
+        </view>
+        <view>
+          <view class='table-first'>时（子孙</view>
+          <view class='table-second'>
+            <view class='table-second-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/jieming/1/images/bzmp/wumu.png' class='img'></image>
+            </view>
+            <view class='table-second-item'>壬子</view>
+            <view class='table-second-item'>桑松木</view>
+          </view>
+          <view class='table-second'>
+            <view class='table-second-item'>
+              <image src='http://ffsm.smdqw.net/statics/ffsm/jieming/1/images/bzmp/shu.png' class='img'></image>
+            </view>
+            <view class='table-second-item'>壬子</view>
+            <view class='table-second-item'>山上之鼠</view>
+          </view>
+        </view>
+      </view>
+      <view class='bzmp-bottom'>
+        八字命盘从阴阳干支三合历取得。上排是天干由五行“金水木火土”轮流排列。下排是地支用十二生肖顺序排列。十二生肖可转换成五行八字姓名详批是依据文字的音、形、义、意、数的原理，综合姓氏文化、文字阴阳五行，并结合测算者的八字信息，解读你的姓名中所暗藏的各项运势，让你更好的了解自己，掌握命运。
+      </view>
+    </view>
+  </view>
+  <view class='wait-unlock'>
+    <view class='wait-unlock-left'>
+      <view class='img-view3'>
+      </view>
+      <view>您的性格特征</view>
+    </view>
+    <view class='img-view4'>
+    </view>
+  </view>
+  <view class='wait-unlock'>
+    <view class='wait-unlock-left'>
+      <view class='img-view3'>
+      </view>
+      <view>您的事业职业分析</view>
+    </view>
+    <view class='img-view4'>
+    </view>
+  </view>
+  <view class='wait-unlock'>
+    <view class='wait-unlock-left'>
+      <view class='img-view3'>
+      </view>
+      <view>您的恋爱婚姻解析</view>
+    </view>
+    <view class='img-view4'>
+    </view>
+  </view>
+  <view class='wait-unlock'>
+    <view class='wait-unlock-left'>
+      <view class='img-view3'>
+      </view>
+      <view>您的健康运势解析</view>
+    </view>
+    <view class='img-view4'>
+    </view>
+  </view>
+  <view class='wait-unlock'>
+    <view class='wait-unlock-left'>
+      <view class='img-view3'>
+      </view>
+      <view>您的晚景如何</view>
+    </view>
+    <view class='img-view4'>
+    </view>
+  </view>
+  <view class='popular-measure-container'>
+    <view class='popular-measure'>热门测算</view>
+    <view class='popular-measure-view'>
+      <view class='popular-measure-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/img/57de106713afa.png' class='measure-img' mode='widthFix'></image>
+        </view>
+        <view class='measure-text'>八字财运</view>
+      </view>
+      <view class='popular-measure-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/img/58d211cb9c325.png' class='measure-img' mode='widthFix'></image>
+        </view>
+        <view class='measure-text'>婚姻测算</view>
+      </view>
+      <view class='popular-measure-item'>
+        <view>
+          <image src='http://ffsm.smdqw.net/statics/img/57eb37f719118.png' class='measure-img' mode='widthFix'></image>
+        </view>
+        <view class='measure-text'>姓名祥批</view>
+      </view>
+    </view>
+  </view>
+  <view class='footer'>
+    <view>神算网</view>
+    <view>动力十足有限公司 地址：北京世贸天阶</view>
+    <view>客服7x24小时在线 & 联系QQ：52623867</view>
+    <view class='we'>
+      <view class='about-us'>关于我们</view>
+      <view>联系我们</view>
+    </view>
+  </view>
+</view>

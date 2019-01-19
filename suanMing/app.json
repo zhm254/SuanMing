@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/xmxpPayUnlock/xmxpPayUnlock",
+    "pages/xmpdPayUnlock/xmpdPayUnlock",
     "pages/bzjpPayUnlock/bzjpPayUnlock",
     "pages/xmxp/xmxp",
     "pages/xmpd/xmpd",

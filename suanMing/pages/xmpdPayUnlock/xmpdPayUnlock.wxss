@@ -1,0 +1,326 @@
+page {
+  background-color: #f94990;
+}
+
+.top {
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-icon {
+  width: 48rpx;
+  height: 48rpx;
+  margin-left: 16rpx;
+}
+
+.xmpd {
+  font-size: 40rpx;
+  color: #a83b00;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.my-measure {
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 2rpx solid #db8732;
+  border-radius: 10rpx;
+  padding: 0 10rpx;
+  color: #db8732;
+  font-size: 28rpx;
+  margin-right: 16rpx;
+}
+
+.order-top {
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+  height: 400rpx;
+  display: block;
+}
+
+.order-num {
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  margin-left: -140px;
+  width: 280px;
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 12px;
+  background-color: #ffc505;
+  text-align: center;
+  color: #333;
+}
+
+.order-info {
+  margin: 10px 10px 0;
+  border-radius: 5px;
+  padding: 0 0 10px;
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+}
+
+.order-info-inner {
+  border: 1px solid #f6bdc7;
+  margin: 10px 10px 0;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff5f7;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333;
+}
+
+.key-text {
+  color: red;
+}
+
+.weixin-num {
+  font-weight: bold;
+  color: red;
+}
+
+.order-pay {
+  margin: 10px 10px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #d7d7d7;
+}
+
+.order-pay-title {
+  color: #a50028;
+  height: 33px;
+  line-height: 33px;
+  border-bottom: 1px solid #d7d7d7;
+  background-color: #fff5f8;
+  text-align: center;
+  font-size: 14px;
+}
+
+.order-price {
+  color: #2b2b2b;
+  font-size: 20px;
+  padding: 10px 0 5px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.price {
+  color: #e9193c;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.order-pay-text {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.pay-way-box {
+  padding: 0 0 10px;
+  text-align: center;
+}
+
+.weixin-pay {
+  background: url(http://ffsm.smdqw.net/statics/ffsm/public/images/m_weixin.jpg) center center no-repeat #f9f9f9;
+  background-size: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 10px 20px 0;
+  border: 1px solid #949494;
+  border-radius: 5px;
+}
+
+.zhifubao-pay {
+  background: url(http://ffsm.smdqw.net/statics/ffsm/public/images/m_alipay.jpg) center center no-repeat #f9f9f9;
+  background-size: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 10px 20px 0;
+  border: 1px solid #949494;
+  border-radius: 5px;
+}
+
+.forecast {
+  margin: 10px 10px 0;
+  border-radius: 5px;
+  padding: 0 0 10px;
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+}
+
+.forecast-title {
+  border-bottom: 1px solid #d7d7d7;
+  padding: 6px 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.4;
+  color: #333;
+}
+
+.man-and-woman {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.man-and-woman-item {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sex-icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.name {
+  font-size: 24px;
+  color: #2b2b2b;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.host {
+  font-size: 16px;
+  color: #ababab;
+  line-height: 20px;
+  text-align: center;
+}
+
+.vs {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #2b2b2b;
+  text-align: center;
+}
+
+.matching {
+  color: #2b2b2b;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.matching-degree {
+  margin: 10px 10px 0;
+  border: 1px solid #f6bdc7;
+  height: 50px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.matching-degree-title {
+  position: absolute;
+  height: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  top: -10px;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+}
+
+.matching-degree-img {
+  height: 30px;
+  width: 150px;
+  margin: 14px auto 0;
+  background-image: url(http://ffsm.smdqw.net/statics/ffsm/xmpeidui/2/images/start.png);
+  background-repeat: no-repeat;
+  background-size: 150px auto;
+  background-position: 0 -180px;
+}
+
+.forecast-bottom {
+  margin: 10px 10px 0;
+  border: 1px solid #f6bdc7;
+  border-radius: 6px;
+  font-size: 18px;
+  color: #e9193c;
+  font-weight: 800;
+  background-color: #fff5f7;
+  line-height: 1.4;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.love-book-view {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.love-book {
+  width: 100%;
+  display: block;
+}
+
+.harvest {
+  border: 1px solid #d7d7d7;
+  margin: 10px 10px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px 10px 10px;
+}
+
+.harvest-title {
+  border-bottom: 1px solid #d7d7d7;
+  font-size: 20px;
+  padding: 6px 0;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #333;
+}
+
+.img1 {
+  width: 100%;
+  height: 715rpx;
+}
+
+.img2 {
+  width: 100%;
+  height: 666rpx;
+}
+
+.footer {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.we {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rpx;
+}
+
+.about-us {
+  margin-right: 24rpx;
+}
